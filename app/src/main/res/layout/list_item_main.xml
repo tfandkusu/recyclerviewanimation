@@ -2,7 +2,7 @@
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tool="http://schemas.android.com/tools">
     <data>
-        <variable name="item" type="com.example.recyclerviewanimation.Store"/>
+        <variable name="viewModel" type="com.example.recyclerviewanimation.MainListViewModel"/>
     </data>
     <LinearLayout
             android:orientation="horizontal"
@@ -16,7 +16,7 @@
                   android:layout_marginTop="8dp"
                   android:layout_marginBottom="8dp"
                   tool:text="@string/sample_chain"
-                  android:text="@{item.chain}" />
+                  android:text="@{viewModel.chain}" />
         <TextView android:layout_width="wrap_content"
                   android:layout_height="wrap_content"
                   android:layout_marginLeft="8dp"
@@ -24,6 +24,6 @@
                   android:layout_marginTop="8dp"
                   android:layout_marginBottom="8dp"
                   tool:text="@string/sample_chain"
-                  android:text="@{item.place}" />
+                  android:text="@{viewModel.place}" />
     </LinearLayout>
 </layout>
