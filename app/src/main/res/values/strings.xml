@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">RecyclerView</string>
+    <string name="sample_chain">RNIマート</string>
+    <string name="sample_place">赤坂1号店</string>
+</resources>
